@@ -3,20 +3,27 @@
     margin: 0;
 }
 body{
-    background-image: url('./project\ pictures/main.png');
+    background-image: url('./images/main.png');
     width: 100% ;
     height: 100%;
 }
 .div1 {
     background:blue;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
-.div1 .logo img{
-    margin-right: 700px;
-    width: 120px;
-    height: 65px;
+.div3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .logo-img{
+    background-color: blue ;
+    width: 80px;
+    height: 70px;
 }
 .active , .list-element {
     padding: 25px;
